@@ -1,0 +1,12 @@
+  ## Server keys ##
+server:
+  port: 9898
+  servlet:
+    context-path: /myapp
+    
+   ## View Resolver ##
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp   
